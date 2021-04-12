@@ -1,9 +1,9 @@
 # Features
 
-dropdown with multiple selction option
-bind to any custom data source
-search item with custom placeholder text
-select/de-select items
+> dropdown with multiple selction option
+> bind to any custom data source
+> search item with custom placeholder text
+> select/de-select items
 
 # Installation
 
@@ -13,7 +13,7 @@ select/de-select items
 And then include it in your module (see app.module.ts):
 
 ```
-import { MultiSelectComponent } from './multi-select/multi-select.component';
+import { MultiSelectComponent } from './multi-select.component';
 //....
 @NgModule({
   declarations: [
