@@ -12,21 +12,17 @@ select/de-select items
 
 And then include it in your module (see app.module.ts):
 
-Then...
-
-...
-
-import { MultiSelectComponent } from './multi-select/multi-select.component';
+`import { MultiSelectComponent } from './multi-select/multi-select.component';
 
 @NgModule({
   declarations: [
     MultiSelectComponent
-	//
+	//....
   ]
-  //
+  //....
 })
-//
-...
+//...`
+
 
 # Usage
 
